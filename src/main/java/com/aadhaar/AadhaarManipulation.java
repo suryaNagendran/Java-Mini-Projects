@@ -14,7 +14,7 @@ public class AadhaarManipulation {
 
     public static void main(String[] args) {
         AadhaarManipulation searcher = new AadhaarManipulation();
-        searcher.filter("age","22");
+        searcher.filter("pinCode","641666");
     }
     public void filter(String filter, String value){
         switch (filter) {
